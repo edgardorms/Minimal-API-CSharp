@@ -17,6 +17,10 @@ namespace Minimal_API.Models
 
         public string Description { get; set; }
 
+        public int Points { get; set; }
+
+        public int Stars { get; set; }
+
         public Priority TaskPriority { get; set; }
 
         public DateTime DateTimeCreated { get; set; }

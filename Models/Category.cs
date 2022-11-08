@@ -13,6 +13,10 @@ namespace Minimal_API.Models
 
         public string Description { get; set; }
 
+        public int Effort { get; set; }
+
+        public int Area { get; set; }
+
         public virtual ICollection<Task> Tasks { get; set; }
     }
 }
